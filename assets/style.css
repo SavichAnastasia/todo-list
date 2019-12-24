@@ -1,0 +1,81 @@
+* {
+	font-family: cursive;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	padding: 5px 15px;
+	margin: 0 auto;
+}
+
+.main {
+	border: 1px solid #778899;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.nav-item {
+	font: 18px 'Comfortaa', cursive;
+}
+
+.main .nav-pills .nav-item .nav-link.active {
+	background: #87CEFA;
+	color: #191970;
+}
+
+.main .task-table {
+	padding-top: 5px;
+	width: 100%;
+}
+
+.main .task-table .table {
+	text-align: center;
+	width: 100%;
+	background: #1E90FF;
+	margin-bottom: 0;
+}
+
+.main .task-table table th {
+	font: 25px 'Caveat', cursive;
+	font-weight: bold;
+	color: #E0FFFF;
+}
+
+input.red {
+	border: 1px solid #FF0000;
+}
+
+i {
+	display: block;
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+i:hover {
+	opacity: .7;
+}
+
+.main .task-table .table-body {
+	font: 15px 'Comfortaa', cursive;
+	background: #87CEFA;
+	padding-top: 5px;
+	color: #191970;
+}
+
+.main .task-table .table-body tr:nth-of-type(odd) {
+	background: #AFEEEE;
+}
+
+.main .nav-pills .btn {
+	font: 25px 'Caveat', cursive;
+	color: #E0FFFF;
+}
+
+.modal .required-star {
+	color: #FF0000;
+}
